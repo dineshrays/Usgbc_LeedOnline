@@ -18,7 +18,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
-import internal.GlobalVariable
+//import internal.GlobalVariable
 
 import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
@@ -53,10 +53,11 @@ import cucumber.api.junit.Cucumber
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "Include/features/Usgbc_LeedCampusReg.feature",glue="",
-plugin = ["pretty",
-	"junit:MyReports/CampusRegistration.xml",
-	"html:MyReports",
-	"json:MyReports/CampusRegistration.json"],
+	plugin = ["pretty",
+		"junit:MyReports/CampusRegistration.xml",
+		"html:MyReports",
+		"json:MyReports/CampusRegistration.json"],
+	
 tags=['@SmokeTest'] )
 class CampusRegistrationRunner {
 }
