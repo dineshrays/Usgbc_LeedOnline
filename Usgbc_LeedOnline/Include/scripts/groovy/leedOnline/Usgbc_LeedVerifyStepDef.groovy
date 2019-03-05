@@ -61,6 +61,7 @@ class projectdetails {
 	@When("User has to enter username (.*) and password (.*)")
 	public void User_has_to_enter_username_and_password(String username,String password){
 		WebUI.delay(2)
+		WebUI.setViewPortSize(1920, 1080)
 		WebUI.setText(findTestObject('Object Repository/Project_Registration/Page_LEED Online/input_Log username'), username)
 		WebUI.setText(findTestObject('Object Repository/Project_Registration/Page_LEED Online/input_Log password'), password)
 	}
@@ -69,7 +70,7 @@ class projectdetails {
 	@When("User has to check accept checkbox")
 	public void User_has_to_check_accept_checkbox(){
 		WebUI.delay(3)
-		WebUI.scrollToElement(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),0)
+		WebUI.scrollToElement(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),30)
 		WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))
 	}
 	@When("User clicks on login button and navigate to home page")
