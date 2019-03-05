@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="148.418435">
-<testcase classname="USGBC Leed Online Project Registration" name="To verify the Leed online Login" time="41.728948">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="123.00739">
+<testcase classname="USGBC Leed Online Project Registration" name="To verify the Leed online Login" time="29.260039">
 <system-out><![CDATA[Given User has to navigate to LEED Online login page........................passed
 And User has to enter username jaypeejay@hotmail.com and password initpass..passed
 And User has to check accept checkbox.......................................passed
@@ -8,7 +8,7 @@ Then User should navigate to project Details Page...........................pass
 And User clicks on Create new button to navigate to in Leeds online homepage.passed
 ]]></system-out>
 </testcase>
-<testcase classname="USGBC Leed Online Project Registration" name="Creating Project for Leeds Online" time="23.55015">
+<testcase classname="USGBC Leed Online Project Registration" name="Creating Project for Leeds Online" time="17.911435">
 <system-out><![CDATA[Given User should be in Leeds online homepage...............................passed
 And User has to fill all the entries in project details page such as Name BDDAuto001.passed
 And User should select Group Certification project,Rating Systems,Unit Type.passed
@@ -30,14 +30,14 @@ When User clicks on Continue Button.........................................pass
 Then Successfully entered the details page and user should navigate to Agreement page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="USGBC Leed Online Project Registration" name="To Verify LEED certification agreement" time="13.729974">
+<testcase classname="USGBC Leed Online Project Registration" name="To Verify LEED certification agreement" time="13.281018">
 <system-out><![CDATA[Given User has to find LEED certification agreement.........................passed
 And User should find all the 29 list of points..............................passed
 When User wants to agree then user should click on I AGREE button...........passed
 Then User successfully registered project and user should navigate to payment page.passed
 ]]></system-out>
 </testcase>
-<testcase classname="USGBC Leed Online Project Registration" name="To verify USGBC LEED online payment for card" time="32.738447">
+<testcase classname="USGBC Leed Online Project Registration" name="To verify USGBC LEED online payment for card" time="25.380348">
 <system-out><![CDATA[Given User has to see Project details.......................................passed
 And User has to find payment type...........................................passed
 And User can select credit card and card type...............................passed
@@ -49,7 +49,7 @@ When User should click on SUBMIT PAYMENT....................................pass
 Then User successfully entered into Receipt page............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="USGBC Leed Online Project Registration" name="To verify the Receipt" time="36.670916">
+<testcase classname="USGBC Leed Online Project Registration" name="To verify the Receipt" time="37.17455">
 <system-out><![CDATA[Given User has to find Order Summary........................................passed
 When User has to click on Print and DONE buttons............................passed
 Then User successfully created project......................................passed

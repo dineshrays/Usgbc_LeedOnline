@@ -17,15 +17,15 @@
       <testCaseId>Test Cases/SmokeTest/TC_Campus_Registration</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0607c464-b698-47b4-b796-7d3550020c18</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SmokeTest/TC_Project_Verification</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>185ed038-ec76-4ca8-8fb4-5c08826a0065</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SmokeTest/TC_Project_Registration</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0607c464-b698-47b4-b796-7d3550020c18</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SmokeTest/TC_Project_Verification</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

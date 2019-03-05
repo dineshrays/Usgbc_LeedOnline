@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12533181068,
+              "duration": 17314451764,
               "status": "passed"
             },
             "line": 14,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2485786717,
+              "duration": 2601255532,
               "status": "passed"
             },
             "line": 15,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 3208895960,
+              "duration": 3259556010,
               "status": "passed"
             },
             "line": 16,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 2135258971,
+              "duration": 2110026362,
               "status": "passed"
             },
             "line": 17,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 269593,
+              "duration": 313015,
               "status": "passed"
             },
             "line": 18,
@@ -97,7 +97,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18326574758,
+              "duration": 15883760541,
               "status": "passed"
             },
             "line": 27,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 1052696,
+              "duration": 781970,
               "status": "passed"
             },
             "line": 28,
@@ -121,7 +121,7 @@
           },
           {
             "result": {
-              "duration": 755162,
+              "duration": 799339,
               "status": "passed"
             },
             "line": 29,
@@ -133,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 7227961916,
+              "duration": 5898105223,
               "status": "passed"
             },
             "line": 30,
@@ -159,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 681454125,
+              "duration": 421579815,
               "status": "passed"
             },
             "line": 31,
@@ -171,7 +171,7 @@
           },
           {
             "result": {
-              "duration": 6141864375,
+              "duration": 3646140479,
               "status": "passed"
             },
             "line": 32,
@@ -183,7 +183,7 @@
           },
           {
             "result": {
-              "duration": 615472970,
+              "duration": 263485118,
               "status": "passed"
             },
             "line": 33,
@@ -201,7 +201,7 @@
           },
           {
             "result": {
-              "duration": 821678287,
+              "duration": 454810345,
               "status": "passed"
             },
             "line": 35,
@@ -227,7 +227,7 @@
           },
           {
             "result": {
-              "duration": 6103730954,
+              "duration": 3970657799,
               "status": "passed"
             },
             "line": 36,
@@ -239,7 +239,7 @@
           },
           {
             "result": {
-              "duration": 986385938,
+              "duration": 591980632,
               "status": "passed"
             },
             "line": 37,
@@ -251,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 264001272,
+              "duration": 149963488,
               "status": "passed"
             },
             "line": 38,
@@ -269,7 +269,7 @@
           },
           {
             "result": {
-              "duration": 1458136456,
+              "duration": 14532052478,
               "status": "passed"
             },
             "line": 39,
@@ -281,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 912991,
+              "duration": 348507,
               "status": "passed"
             },
             "line": 40,
@@ -311,7 +311,7 @@
         "steps": [
           {
             "result": {
-              "duration": 796318,
+              "duration": 6035256,
               "status": "passed"
             },
             "line": 49,
@@ -323,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 13394537837,
+              "duration": 13177581276,
               "status": "passed"
             },
             "line": 50,
@@ -335,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 230250812,
+              "duration": 71068305,
               "status": "passed"
             },
             "line": 51,
@@ -347,7 +347,7 @@
           },
           {
             "result": {
-              "duration": 885805,
+              "duration": 323965,
               "status": "passed"
             },
             "line": 52,
@@ -369,7 +369,7 @@
     "description": "",
     "id": "usgbc-leed-online---registration-for-campus",
     "keyword": "Feature",
-    "uri": "Include/features/Usgbc_LeedCampusReg.feature",
+    "uri": "F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature",
     "tags": []
   }
 ]

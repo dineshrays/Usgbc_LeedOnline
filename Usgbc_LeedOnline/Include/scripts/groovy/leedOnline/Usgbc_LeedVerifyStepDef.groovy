@@ -91,6 +91,8 @@ class projectdetails {
 		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/Verify_PrjtDetail/Page_LEED Online/Page_LEED Online/Page_LEED Online/li_of_btn next simpleTip'))
 		WebUI.delay(3)
+		WebUI.click(findTestObject('Object Repository/Verify_PrjtDetail/Page_LEED Online/Page_LEED Online/Page_LEED Online/li_of_btn next simpleTip'))
+		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/Verify_PrjtDetail/Page_LEED Online/div_v4.1 Interiors BP021000158'))
 	}
 	@Then("User should navigate to Project Details Page")
