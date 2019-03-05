@@ -70,6 +70,7 @@ plugin = ["pretty",
 	"json:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectVerification.json"],
 tags=['@SmokeTest'])
 
+
 class ProjectVerificationRunner {
 }
 
