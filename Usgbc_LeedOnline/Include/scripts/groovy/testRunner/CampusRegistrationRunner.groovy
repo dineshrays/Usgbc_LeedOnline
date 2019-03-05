@@ -69,15 +69,27 @@ tags=['@SmokeTest'] )*/
  tags=['@SmokeTest'] )*/
 
 
+////////////////////////////////  Sabareesh Code ////////////////////////////////////////
 
-
+/* C:\Program Files (x86)\Jenkins\workspace\UsgbcLeedOnline\Usgbc_LeedOnline
+C:\\Program Files (x86)\\Jenkins\\workspace\\UsgbcLeedOnline\\Usgbc_LeedOnline
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "G:\\Sabareesh\\Usgbc_GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\Include\\features\\Usgbc_LeedCampusReg.feature",glue="",
 plugin = ["pretty",
 	"junit:G:\\Sabareesh\\Usgbc_GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\MyReports\\CampusRegistration.xml",
 	"html:G:\\Sabareesh\\Usgbc_GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\MyReports\\CampusRegistration.html",
 	"json:G:\\Sabareesh\\Usgbc_GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\MyReports\\CampusRegistration.json"],
+tags=['@SmokeTest'] )*/
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "C:\\Program Files (x86)\\Jenkins\\workspace\\Usgbc_LeedOnline\\Include\\features\\Usgbc_LeedCampusReg.feature",glue="",
+plugin = ["pretty",
+	"junit:C:\\Program Files (x86)\\Jenkins\\workspace\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\MyReports\\CampusRegistration.xml",
+	"html:C:\\Program Files (x86)\\Jenkins\\workspace\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\MyReports\\CampusRegistration.html",
+	"json:C:\\Program Files (x86)\\Jenkins\\workspace\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\MyReports\\CampusRegistration.json"],
 tags=['@SmokeTest'] )
+
 
 class CampusRegistrationRunner {
 }
