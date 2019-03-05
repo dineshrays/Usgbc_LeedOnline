@@ -52,7 +52,8 @@ import cucumber.api.junit.Cucumber
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "Include/features/Usgbc_LeedVerify.feature",glue="",
+@CucumberOptions(features = "C:\\Program Files (x86)\\Jenkins\\workspace\\Leed_Online\\Usgbc_LeedOnline\\Include\\features\\Usgbc_LeedVerify.feature",
+	glue="",
 plugin = ["pretty",
 	"junit:MyReports/ProjectVerification.xml",
 	"html:MyReports/ProjectVerification.html",
