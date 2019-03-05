@@ -51,24 +51,24 @@ import cucumber.api.junit.Cucumber
 
 
 /*
- @RunWith(Cucumber.class)
- @CucumberOptions(features = "F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature",glue="",
- plugin = ["pretty",
- "junit:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/CampusRegistration.xml",
- "html:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/CampusRegistration.html",
- "json:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/CampusRegistration.json"],
- tags=['@SmokeTest'] )*/
-
-
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature",glue="",
+@CucumberOptions(features = "F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature",glue="",
 plugin = ["pretty",
-	"junit:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/CampusRegistration.xml",
-	"html:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/CampusRegistration.html",
-	"json:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/CampusRegistration.json"],
+	"junit:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/CampusRegistration.xml",
+	"html:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/CampusRegistration.html",
+	"json:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/CampusRegistration.json"],
 tags=['@SmokeTest'] )
+*/
 
 
+ @RunWith(Cucumber.class)
+ @CucumberOptions(features = "C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature",glue="",
+ plugin = ["pretty",
+ "junit:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/CampusRegistration.xml",
+ "html:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/CampusRegistration.html",
+ "json:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/CampusRegistration.json"],
+ tags=['@SmokeTest'] )
+ 
 class CampusRegistrationRunner {
 }
 

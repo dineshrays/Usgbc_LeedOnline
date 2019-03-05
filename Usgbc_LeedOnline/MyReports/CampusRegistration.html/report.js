@@ -120,9 +120,6 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@SmokeTest"
-    },
-    {
-      "name": "@NegativeTest"
     }
   ]
 });
@@ -220,9 +217,6 @@ formatter.scenario({
   "tags": [
     {
       "name": "@SmokeTest"
-    },
-    {
-      "name": "@NegativeTest"
     }
   ]
 });
