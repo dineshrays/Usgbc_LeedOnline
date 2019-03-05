@@ -195,9 +195,9 @@ class projectdetails {
 		WebUI.delay(5)
 		WebUI.navigateToUrl("https://leedonline-stg.usgbc.org/projects/details/1000158832")
 		WebUI.delay(5)
-		//WebUI.uploadFile(findTestObject('Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/Page_LEED Online/input_Upload Change of Owner A'), 'C:\\Users\\Promantus Inc\\Desktop')
-		CustomKeywords.'customKeywords.CustomKeywordPdfupload.uploadFile'(findTestObject('Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/Page_LEED Online/input_Upload Change of Owner A'), 'C:\\Users\\Promantus Inc\\Desktop\\COO.pdf')
-
+		WebUI.uploadFile(findTestObject('Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/Page_LEED Online/input_Upload Change of Owner A'), 'C:\\Users\\Promantus Inc\\Desktop')
+		//CustomKeywords.'customKeywords.CustomKeywordPdfupload.uploadFile'(findTestObject('Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/Page_LEED Online/input_Upload Change of Owner A'), 'F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/Test Data/COO.pdf')
+		CustomKeywords.'customKeywords.CustomKeywordPdfupload.uploadFile'(findTestObject('Object Repository/Verify_PrjtDetail/change Owner/Page_LEED Online/Page_LEED Online/input_Upload Change of Owner A'), 'C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/Include/Test Data/COO.pdf')
 
 	}
 	@Then("User can see the uploaded file in project details page")
