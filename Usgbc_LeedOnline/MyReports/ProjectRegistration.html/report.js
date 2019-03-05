@@ -725,7 +725,8 @@ formatter.match({
   "location": "Usgbc_LeedPrjtRegStepDef.User_has_to_click_on_Print_and_DONE_buttons()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object \u0027Object Repository/Project_Registration/Receipt/Page_LEED Online/a_Done\u0027 (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: \u0027Object Repository/Project_Registration/Receipt/Page_LEED Online/a_Done\u0027 located by \u0027By.xpath: //a[contains(text(),\u0027Done\u0027)]\u0027 not found)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$3.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat leedOnline.Usgbc_LeedPrjtRegStepDef.User_has_to_click_on_Print_and_DONE_buttons(Usgbc_LeedPrjtRegStepDef.groovy:336)\r\n\tat ✽.User has to click on Print and DONE buttons(F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedPrjtReg.feature:131)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User successfully created project",
@@ -735,6 +736,6 @@ formatter.match({
   "location": "Usgbc_LeedPrjtRegStepDef.User_successfully_created_project()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 });

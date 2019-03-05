@@ -50,7 +50,7 @@ import cucumber.api.java.en.When
 import cucumber.api.junit.Cucumber
 
 
-/*
+
  @RunWith(Cucumber.class)
  @CucumberOptions(features = "F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature",glue="",
  plugin = ["pretty",
@@ -58,15 +58,15 @@ import cucumber.api.junit.Cucumber
  "html:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/CampusRegistration.html",
  "json:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/CampusRegistration.json"],
  tags=['@SmokeTest'] )
- */
-
+ 
+/*
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature",glue="",
 plugin = ["pretty",
 	"junit:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/CampusRegistration.xml",
 	"html:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/CampusRegistration.html",
 	"json:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/CampusRegistration.json"],
-tags=['@SmokeTest'] )
+tags=['@SmokeTest'] )*/
 
 
 class CampusRegistrationRunner {

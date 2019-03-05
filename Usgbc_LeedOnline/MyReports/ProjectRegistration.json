@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6662498801,
+              "duration": 11744856025,
               "status": "passed"
             },
             "line": 14,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 2318384648,
+              "duration": 2619078113,
               "status": "passed"
             },
             "line": 15,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 3114575082,
+              "duration": 3181113547,
               "status": "passed"
             },
             "line": 16,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 2090596797,
+              "duration": 2160579179,
               "status": "passed"
             },
             "line": 17,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 263929,
+              "duration": 584118,
               "status": "passed"
             },
             "line": 18,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 15056826326,
+              "duration": 15314856530,
               "status": "passed"
             },
             "line": 19,
@@ -109,7 +109,7 @@
         "steps": [
           {
             "result": {
-              "duration": 305841,
+              "duration": 478773,
               "status": "passed"
             },
             "line": 28,
@@ -121,7 +121,7 @@
           },
           {
             "result": {
-              "duration": 203851478,
+              "duration": 447462240,
               "status": "passed"
             },
             "line": 32,
@@ -139,7 +139,7 @@
           },
           {
             "result": {
-              "duration": 308840154,
+              "duration": 629789710,
               "status": "passed"
             },
             "line": 33,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 3444520884,
+              "duration": 3694821626,
               "status": "passed"
             },
             "line": 34,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 3257538594,
+              "duration": 3607870375,
               "status": "passed"
             },
             "line": 35,
@@ -175,7 +175,7 @@
           },
           {
             "result": {
-              "duration": 903306024,
+              "duration": 1677315460,
               "status": "passed"
             },
             "line": 36,
@@ -187,7 +187,7 @@
           },
           {
             "result": {
-              "duration": 4746382584,
+              "duration": 6016232964,
               "status": "passed"
             },
             "line": 37,
@@ -213,7 +213,7 @@
           },
           {
             "result": {
-              "duration": 457653530,
+              "duration": 1694032482,
               "status": "passed"
             },
             "line": 38,
@@ -225,7 +225,7 @@
           },
           {
             "result": {
-              "duration": 2360174563,
+              "duration": 2766113083,
               "status": "passed"
             },
             "line": 39,
@@ -243,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 88663205,
+              "duration": 161367946,
               "status": "passed"
             },
             "line": 40,
@@ -255,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 183882,
+              "duration": 417605,
               "status": "passed"
             },
             "line": 41,
@@ -267,7 +267,7 @@
           },
           {
             "result": {
-              "duration": 323587,
+              "duration": 555799,
               "status": "passed"
             },
             "line": 45,
@@ -285,7 +285,7 @@
           },
           {
             "result": {
-              "duration": 556242963,
+              "duration": 1208468162,
               "status": "passed"
             },
             "line": 49,
@@ -307,7 +307,7 @@
           },
           {
             "result": {
-              "duration": 207242911,
+              "duration": 371566561,
               "status": "passed"
             },
             "line": 50,
@@ -325,7 +325,7 @@
           },
           {
             "result": {
-              "duration": 159446814,
+              "duration": 603211780,
               "status": "passed"
             },
             "line": 51,
@@ -337,7 +337,7 @@
           },
           {
             "result": {
-              "duration": 160255215,
+              "duration": 882592306,
               "status": "passed"
             },
             "line": 52,
@@ -355,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 926659034,
+              "duration": 1359619897,
               "status": "passed"
             },
             "line": 53,
@@ -377,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 119785700,
+              "duration": 253033675,
               "status": "passed"
             },
             "line": 54,
@@ -389,7 +389,7 @@
           },
           {
             "result": {
-              "duration": 178596,
+              "duration": 587516,
               "status": "passed"
             },
             "line": 55,
@@ -416,7 +416,7 @@
         "steps": [
           {
             "result": {
-              "duration": 630938,
+              "duration": 582230,
               "status": "passed"
             },
             "line": 64,
@@ -428,7 +428,7 @@
           },
           {
             "result": {
-              "duration": 13204619100,
+              "duration": 14737863601,
               "status": "passed"
             },
             "line": 65,
@@ -440,7 +440,7 @@
           },
           {
             "result": {
-              "duration": 73150664,
+              "duration": 221008383,
               "status": "passed"
             },
             "line": 66,
@@ -452,7 +452,7 @@
           },
           {
             "result": {
-              "duration": 314525,
+              "duration": 946218,
               "status": "passed"
             },
             "line": 67,
@@ -479,7 +479,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11484034363,
+              "duration": 10410285232,
               "status": "passed"
             },
             "line": 79,
@@ -491,7 +491,7 @@
           },
           {
             "result": {
-              "duration": 55502148,
+              "duration": 164680465,
               "status": "passed"
             },
             "line": 80,
@@ -503,7 +503,7 @@
           },
           {
             "result": {
-              "duration": 91713682,
+              "duration": 264551785,
               "status": "passed"
             },
             "line": 84,
@@ -515,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 363063436,
+              "duration": 894168940,
               "status": "passed"
             },
             "line": 85,
@@ -541,7 +541,7 @@
           },
           {
             "result": {
-              "duration": 437395174,
+              "duration": 838392290,
               "status": "passed"
             },
             "line": 86,
@@ -563,7 +563,7 @@
           },
           {
             "result": {
-              "duration": 388612080,
+              "duration": 832781813,
               "status": "passed"
             },
             "line": 90,
@@ -585,7 +585,7 @@
           },
           {
             "result": {
-              "duration": 4782239569,
+              "duration": 9172264180,
               "status": "passed"
             },
             "line": 91,
@@ -623,7 +623,7 @@
           },
           {
             "result": {
-              "duration": 7772766060,
+              "duration": 8425692805,
               "status": "passed"
             },
             "line": 97,
@@ -635,7 +635,7 @@
           },
           {
             "result": {
-              "duration": 210313,
+              "duration": 821994,
               "status": "passed"
             },
             "line": 98,
@@ -662,7 +662,7 @@
         "steps": [
           {
             "result": {
-              "duration": 73163880,
+              "duration": 102397715,
               "status": "passed"
             },
             "line": 130,
@@ -674,8 +674,9 @@
           },
           {
             "result": {
-              "duration": 37099263037,
-              "status": "passed"
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object \u0027Object Repository/Project_Registration/Receipt/Page_LEED Online/a_Done\u0027 (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: \u0027Object Repository/Project_Registration/Receipt/Page_LEED Online/a_Done\u0027 located by \u0027By.xpath: //a[contains(text(),\u0027Done\u0027)]\u0027 not found)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:2975)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$3.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat leedOnline.Usgbc_LeedPrjtRegStepDef.User_has_to_click_on_Print_and_DONE_buttons(Usgbc_LeedPrjtRegStepDef.groovy:336)\r\n\tat ✽.User has to click on Print and DONE buttons(F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedPrjtReg.feature:131)\r\n",
+              "duration": 36971848312,
+              "status": "failed"
             },
             "line": 131,
             "name": "User has to click on Print and DONE buttons",
@@ -686,8 +687,7 @@
           },
           {
             "result": {
-              "duration": 360213,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 132,
             "name": "User successfully created project",

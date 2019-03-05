@@ -9,6 +9,7 @@
 #-----------------------------------------------------------------------------------------------------------------------------------
 Feature: USGBC Leed Online - Registration for Campus
 
+#Scenario-1
 @SmokeTest
 Scenario Outline: To verify the Leed online Login
     Given User has to navigate to LEED Online login page
@@ -21,8 +22,8 @@ Scenario Outline: To verify the Leed online Login
       | username              | password |
       | jaypeejay@hotmail.com | initpass |
       
-  #Scenario-1
-  @SmokeTest @NegativeTest
+  #Scenario-2
+  @SmokeTest 
   Scenario Outline: Create a campus for Leed online
     Given User should be on registration page
     And User has to select campus from the register dropdown
@@ -43,7 +44,7 @@ Scenario Outline: To verify the Leed online Login
       | campusName          | Owner                                   | Representative | email               | Address1 | Address2  | city   | postalcode1 | postalcode2 | postalcode3 |
       | TestProjectcampus12 | JOHN J NOLIS ARCHITECTURE AND INTERIORS |      123456789 | testleed@campus.com |      795 | E DRAGRAM | TUCSON |       98104 |       85705 |       85728 |
 
-  #Scenario-2
+  #Scenario-3
    @SmokeTest
   Scenario: LEED certification agreement
     Given User has to find LEED certification agreement
@@ -51,7 +52,7 @@ Scenario Outline: To verify the Leed online Login
     When User wants to agree then user should click on I AGREE button
     Then User successfully registered project and user should navigate to payment page
    
-  #Scenario-3
+  #Scenario-4
   #Negative scenario of Agreement page
   @NegativeTest
   Scenario: Leed Online Cancel Agreement while creating campus
@@ -59,7 +60,7 @@ Scenario Outline: To verify the Leed online Login
     When User should click Cancel button
     Then The project creation will be canceled and user will redirect to Leeds online home page
 
-  #Scenario-4
+  #Scenario-5
   #Verifying Add new Organization
   @RegressionTest
   Scenario Outline: Adding a new organization In Campus Details

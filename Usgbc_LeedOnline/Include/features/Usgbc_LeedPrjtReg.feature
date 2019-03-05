@@ -9,6 +9,7 @@
 #-------------------------------------------------------------------------------------------------------------
 Feature: USGBC Leed Online Project Registration
 
+  #Scenario-1
  @SmokeTest
   Scenario Outline: To verify the Leed online Login
     Given User has to navigate to LEED Online login page
@@ -22,7 +23,7 @@ Feature: USGBC Leed Online Project Registration
       | username              | password |
       | jaypeejay@hotmail.com | initpass |
 
-  #Scenario-1
+  #Scenario-2
   @SmokeTest
   Scenario Outline: Creating Project for Leeds Online
     Given User should be in Leeds online homepage
@@ -58,7 +59,7 @@ Feature: USGBC Leed Online Project Registration
       | Name | Gross floor area | Owner                  | Owners Representative | email address          | ProjectID  | address1           | address2           | city     | postal code | latitude  | longitude  |
       | BDDAuto001 |             1000 | J & S Real Assets, LLC | Jancy Rani            | gokulthiru22@gmail.com | 1000159688 | 9338 Carpenter St. | 9338 Carpenter St. | Waukesha |       46526 | 41.582272 | -85.834438 |
 
-  #Scenario-2
+  #Scenario-3
   @SmokeTest
   Scenario: To Verify LEED certification agreement
     Given User has to find LEED certification agreement
@@ -66,14 +67,14 @@ Feature: USGBC Leed Online Project Registration
     When User wants to agree then user should click on I AGREE button
     Then User successfully registered project and user should navigate to payment page
 
-  #Scenario-3
+  #Scenario-4
   #@NegativeTest
   #Scenario: To Verify USGBC LEED certification agreement
    # Given User has to verify LEED certification agreement
    # When User dont want to agree then user should click on CANCEL button
    # Then User can navigate back to LEED online page
 
-  #Scenario-4
+  #Scenario-5
   @SmokeTest
   Scenario Outline: To verify USGBC LEED online payment for card
     Given User has to see Project details
@@ -101,7 +102,7 @@ Feature: USGBC Leed Online Project Registration
       | Project details | payment type | card type  | Name on card | Card number      | CVV | Month | Year | Bill-to-party name | Bill-to-party Email    | Address1           | Address2           | City     | Country       | State   | Postalcode | code |
       | private         | credit card  | mastercard | gokul t      | 4111111111111111 | 999 |    02 | 2023 | John James p       | gokulthiru22@gmail.com | 9338 Carpenter St. | 9338 Carpenter St. | Waukesha | United States | Indiana |      46526 |      |
 
-  #Scenario-5
+  #Scenario-6
  # @NegativeTest
  # Scenario Outline: To verify USGBC LEED online payment for check
    # Given User has to find Project details
@@ -124,7 +125,7 @@ Feature: USGBC Leed Online Project Registration
    #   | Project details | Bill to party name | Bill-to-party Email    | Address1           | Address2           | City     | Country       | State   | Postal code | code             |
     #  |                 | John James p       | gokulthiru22@gmail.com | 9338 Carpenter St. | 9338 Carpenter St. | Waukesha | United States | Indiana |       46526 | 1733752986034941 |
 
-  #Scenario-6
+  #Scenario-7
   @SmokeTest
   Scenario: To verify the Receipt
     Given User has to find Order Summary
