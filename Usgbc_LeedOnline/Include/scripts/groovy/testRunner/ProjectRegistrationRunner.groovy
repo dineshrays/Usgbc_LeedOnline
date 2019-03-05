@@ -55,7 +55,7 @@ import cucumber.api.junit.Cucumber
 @CucumberOptions(features = "Include/features/Usgbc_LeedPrjtReg.feature", glue="",
 plugin = ["pretty",
 	"junit:MyReports/ProjectRegistration.xml",
-	"html:MyReports",
+	"html:MyReports/ProjectRegistration.html",
 	"json:MyReports/ProjectRegistration.json"],
 tags=['@SmokeTest'] )
 class ProjectRegistrationRunner {

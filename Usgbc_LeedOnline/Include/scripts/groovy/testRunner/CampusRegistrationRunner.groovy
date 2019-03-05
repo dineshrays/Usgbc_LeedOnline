@@ -53,11 +53,11 @@ import cucumber.api.junit.Cucumber
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "Include/features/Usgbc_LeedCampusReg.feature",glue="",
-	plugin = ["pretty",
-		"junit:MyReports/CampusRegistration.xml",
-		"html:MyReports",
-		"json:MyReports/CampusRegistration.json"],
-	
+plugin = ["pretty",
+	"junit:MyReports/CampusRegistration.xml",
+	"html:MyReports/CampusRegistration.html",
+	"json:MyReports/CampusRegistration.json"],
+
 tags=['@SmokeTest'] )
 class CampusRegistrationRunner {
 }

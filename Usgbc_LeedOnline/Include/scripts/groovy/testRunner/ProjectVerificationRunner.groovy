@@ -55,7 +55,7 @@ import cucumber.api.junit.Cucumber
 @CucumberOptions(features = "Include/features/Usgbc_LeedVerify.feature",glue="",
 plugin = ["pretty",
 	"junit:MyReports/ProjectVerification.xml",
-	"html:MyReports",
+	"html:MyReports/ProjectVerification.html",
 	"json:MyReports/ProjectVerification.json"],
 tags=['@SmokeTest'])
 class ProjectVerificationRunner {
