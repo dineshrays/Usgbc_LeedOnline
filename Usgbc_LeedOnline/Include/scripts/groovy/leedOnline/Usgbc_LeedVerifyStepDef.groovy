@@ -72,6 +72,8 @@ class projectdetails {
 		WebUI.delay(3)
 		WebUI.scrollToElement(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),30)
 		WebUI.delay(3)
+		
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 10)
 		WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))
 	}
 	@When("User clicks on login button and navigate to home page")
