@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("G:/Sabareesh/Usgbc_GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedCampusReg.feature");
 formatter.feature({
   "name": "USGBC Leed Online - Registration for Campus",
   "description": "",
@@ -120,9 +120,6 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@SmokeTest"
-    },
-    {
-      "name": "@NegativeTest"
     }
   ]
 });
@@ -220,9 +217,6 @@ formatter.scenario({
   "tags": [
     {
       "name": "@SmokeTest"
-    },
-    {
-      "name": "@NegativeTest"
     }
   ]
 });
