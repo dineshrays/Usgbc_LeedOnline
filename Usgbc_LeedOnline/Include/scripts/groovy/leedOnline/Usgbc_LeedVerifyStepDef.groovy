@@ -57,7 +57,9 @@ class projectdetails {
 		WebUI.openBrowser("")
 		WebUI.maximizeWindow()
 		WebUI.navigateToUrl("https://leedonline-stg.usgbc.org")
-		WebUI.setViewPortSize(1920, 1080)
+		//WebUI.setViewPortSize(1044,788)
+		//WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
+
 	}
 	@When("User has to enter username (.*) and password (.*)")
 	public void User_has_to_enter_username_and_password(String username,String password){
@@ -71,10 +73,11 @@ class projectdetails {
 	public void User_has_to_check_accept_checkbox(){
 		WebUI.delay(3)
 		WebUI.scrollToElement(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),30)
-		WebUI.delay(3)
-		
-		WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 10)
+		//		WebUI.delay(3)
+
+		//WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 10)
 		WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))
+		//WebUI.click(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))
 	}
 	@When("User clicks on login button and navigate to home page")
 	public void User_clicks_on_login_button_and_navigate_to_home_page(){
