@@ -50,27 +50,35 @@ import cucumber.api.java.en.When
 import cucumber.api.junit.Cucumber
 
 
-
- @RunWith(Cucumber.class)
- @CucumberOptions(features = "F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedVerify.feature",
- glue="",
- plugin = ["pretty",
- "junit:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.xml",
- "html:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.html",
- "json:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.json"],
- tags=['@SmokeTest'])
-
 /*
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/Include/features/Usgbc_LeedVerify.feature",
+@CucumberOptions(features = "F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedVerify.feature",
 glue="",
 plugin = ["pretty",
-	"junit:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectVerification.xml",
-	"html:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectVerification.html",
-	"json:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectVerification.json"],
-tags=['@SmokeTest'])
+	"junit:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.xml",
+	"html:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.html",
+	"json:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.json"],
+tags=['@SmokeTest'])*/
+
+/*
+ @RunWith(Cucumber.class)
+ @CucumberOptions(features = "C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/Include/features/Usgbc_LeedVerify.feature",
+ glue="",
+ plugin = ["pretty",
+ "junit:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectVerification.xml",
+ "html:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectVerification.html",
+ "json:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectVerification.json"],
+ tags=['@SmokeTest'])
  */
 
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "Include/features/Usgbc_LeedVerify.feature",
+glue="",
+plugin = ["pretty",
+	"junit:MyReports/ProjectVerification.xml",
+	"html:MyReports/ProjectVerification.html",
+	"json:MyReports/ProjectVerification.json"],
+tags=['@SmokeTest'])
 class ProjectVerificationRunner {
 }
 

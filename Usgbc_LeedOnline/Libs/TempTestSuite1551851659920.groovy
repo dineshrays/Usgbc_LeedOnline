@@ -29,8 +29,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 
 
 
-RunConfiguration.setExecutionSettingFile("F:\\GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190306_104141\\execution.properties")
+RunConfiguration.setExecutionSettingFile("F:\\GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190306_112419\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/SmokeTest/TS_SmokeTest_E2E_LeedOnline', suiteProperties, [new TestCaseBinding('Test Cases/SmokeTest/TC_Campus_Registration', 'Test Cases/SmokeTest/TC_Campus_Registration',  null), new TestCaseBinding('Test Cases/SmokeTest/TC_Project_Registration', 'Test Cases/SmokeTest/TC_Project_Registration',  null)])
+TestCaseMain.startTestSuite('Test Suites/SmokeTest/TS_SmokeTest_E2E_LeedOnline', suiteProperties, [new TestCaseBinding('Test Cases/SmokeTest/TC_Campus_Registration', 'Test Cases/SmokeTest/TC_Campus_Registration',  null)])
