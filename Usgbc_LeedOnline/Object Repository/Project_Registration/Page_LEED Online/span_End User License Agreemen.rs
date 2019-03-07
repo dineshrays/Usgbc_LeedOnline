@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Log In'])[1]/preceding::span[1]</value>
+         <value>//fieldset[5]/label/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
