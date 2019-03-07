@@ -25,8 +25,11 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 import org.openqa.selenium.WebElement
+import org.openqa.selenium.support.ui.ExpectedConditions
+import org.openqa.selenium.support.ui.WebDriverWait
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
+import org.openqa.selenium.JavascriptExecutor
 
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 import com.kms.katalon.core.webui.driver.DriverFactory
@@ -50,17 +53,27 @@ import org.openqa.selenium.Keys as Keys
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 class projectdetails {
 
+	//System.setProperty("webdriver.chrome.driver", "C:\\Users\\promantus inc\\source\\repos\\seleniumExTitbits\\packages\\Selenium.Chrome.WebDriver.2.43\\driver\\chromedriver.exe")
+	//WebDriver driver = new ChromeDriver()
+	
 	@Given("User has to navigate to LEED Online login page")
 	public void user_has_to_navigate_to_LEED_Online_login_page(){
 		WebUI.openBrowser("")
 		WebUI.maximizeWindow()
-		WebUI.navigateToUrl("https://leedonline-stg.usgbc.org")
 		//WebUI.setViewPortSize(1044,788)
-		//WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
+		WebUI.navigateToUrl("https://leedonline-stg.usgbc.org")
 
+		
+		//WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
+//C:\Users\promantus inc\source\repos\seleniumExTitbits\packages\Selenium.Chrome.WebDriver.2.43\driver
 	}
+	
 	@When("User has to enter username (.*) and password (.*)")
 	public void User_has_to_enter_username_and_password(String username,String password){
 		WebUI.delay(2)
@@ -77,7 +90,17 @@ class projectdetails {
 
 		//WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 10)
 		WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))
-		//WebUI.click(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))
+
+		/*
+		 WebDriverWait wait1 = new WebDriverWait(driver, 10);
+		 WebElement element1 = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("xpath_of_element_to_be_clicked")));
+		 element1.click();
+	*/	 
+		/*
+		 WebElement ele = driver.findElement(By.xpath("element_xpath"));
+		 JavascriptExecutor executor = (JavascriptExecutor)driver;
+		 executor.executeScript("arguments[0].click();", ele);
+		 */
 	}
 	@When("User clicks on login button and navigate to home page")
 	public void User_clicks_on_login_button_and_navigate_to_home_page(){
