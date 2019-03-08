@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>9edd274f-e96f-4f89-946f-f3ad7ae05a4c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/SmokeTest/TC_Campus_Registration</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -69,6 +69,7 @@ import cucumber.api.junit.Cucumber
  "html:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectRegistration.html",
  "json:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectRegistration.json"],
  tags=['@SmokeTest'] )
+ 
 
 /*
 @RunWith(Cucumber.class)

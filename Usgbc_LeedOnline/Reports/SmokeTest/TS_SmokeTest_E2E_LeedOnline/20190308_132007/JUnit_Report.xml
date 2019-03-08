@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SmokeTest_E2E_LeedOnline" time="149" tests="1" failures="0" errors="0">
+   <testsuite name="TS_SmokeTest_E2E_LeedOnline" tests="1" failures="0" errors="0" time="149" timestamp="2019-03-08 13:20:20" hostname="promantus inc - G10PROLT025" id="Test Suites/SmokeTest/TS_SmokeTest_E2E_LeedOnline">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190308_132007"/>
+         <property name="logFiles" value="F:\\GitProjects\\Usgbc_LeedOnline\\Usgbc_LeedOnline\\Reports\\SmokeTest\\TS_SmokeTest_E2E_LeedOnline\\20190308_132007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="promantus inc - G10PROLT025"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.1.13"/>
+         <property name="sessionId" value="cff38e3e502fd77db4e962068fc03078"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SmokeTest/TC_Project_Registration" classname="Test Cases/SmokeTest/TC_Project_Registration" status="PASSED">
+         <system-out><![CDATA[2019-03-08 13:20:20 - [TEST_CASE][PASSED] - Test Cases/SmokeTest/TC_Project_Registration: Test Cases/SmokeTest/TC_Project_Registration
+
+2019-03-08 13:20:20 - [TEST_STEP][PASSED] - runWithCucumberRunner(testRunner.ProjectRegistrationRunner): Run with 'testRunner.ProjectRegistrationRunner' was passed
+
+2019-03-08 13:20:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-08 13:20:22 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-08 13:20:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-08 13:20:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-08 13:20:40 - [MESSAGE][PASSED] - Navigate to 'https://leedonline-stg.usgbc.org' successfully
+
+2019-03-08 13:20:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 13:20:43 - [MESSAGE][PASSED] - Text 'jaypeejay@hotmail.com' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log username'
+
+2019-03-08 13:20:43 - [MESSAGE][PASSED] - Text 'initpass' is set on object 'Object Repository/Project_Registration/Page_LEED Online/input_Log password'
+
+2019-03-08 13:20:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-08 13:20:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' successfully
+
+2019-03-08 13:20:46 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' is visible
+
+2019-03-08 13:20:46 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen' is checked
+
+2019-03-08 13:20:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 13:20:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Page_LEED Online/button_Log In' is clicked on
+
+2019-03-08 13:20:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-08 13:21:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Page_LEED Online/Page_LEED Online/div_Create new Project' is clicked on
+
+2019-03-08 13:21:03 - [MESSAGE][PASSED] - Text 'BDDAuto001' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Name_name'
+
+2019-03-08 13:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/span_No_checked' is clicked on
+
+2019-03-08 13:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/select_LEED v4 BDC New Constru' is clicked on
+
+2019-03-08 13:21:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/span_IP units_checked' is clicked on
+
+2019-03-08 13:21:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-08 13:21:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-08 13:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/calender/Page_LEED Online/select_Select project typeAirp' is clicked on
+
+2019-03-08 13:21:12 - [MESSAGE][PASSED] - All options with value 'Airport: Distribution Center' are selected in object 'Object Repository/Project_Registration/calender/Page_LEED Online/select_Select project typeAirp'  using regular expression
+
+2019-03-08 13:21:12 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Gross floor area_grossFo'
+
+2019-03-08 13:21:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 13:21:15 - [MESSAGE][PASSED] - Text 'J & S Real Assets, LLC' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Owner_organization'
+
+2019-03-08 13:21:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 13:21:18 - [MESSAGE][PASSED] - Text 'Jancy Rani' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_concat(Owner  s Represen'
+
+2019-03-08 13:21:19 - [MESSAGE][PASSED] - All options with value 'Business Improvement District' are selected in object 'Object Repository/Project_Registration/Detail/Page_LEED Online/select_Select owner typeBusine'  using regular expression
+
+2019-03-08 13:21:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/select_Select owner typeBusine' is clicked on
+
+2019-03-08 13:21:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 13:21:22 - [MESSAGE][PASSED] - Text 'gokulthiru22@gmail.com' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Email_email'
+
+2019-03-08 13:21:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_This project is private_' is clicked on
+
+2019-03-08 13:21:22 - [MESSAGE][PASSED] - Text '9338 Carpenter St.' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Address 1_address1'
+
+2019-03-08 13:21:23 - [MESSAGE][PASSED] - Text '9338 Carpenter St.' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Address 2_address2'
+
+2019-03-08 13:21:23 - [MESSAGE][PASSED] - Text 'Waukesha' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_City_city'
+
+2019-03-08 13:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/div_City' is clicked on
+
+2019-03-08 13:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/select_AlabamaAlaskaAmerican S' is clicked on
+
+2019-03-08 13:21:23 - [MESSAGE][PASSED] - Text '46526' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Postal code_postalcode'
+
+2019-03-08 13:21:24 - [MESSAGE][PASSED] - Text '41.582272' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Geo location_geoLat'
+
+2019-03-08 13:21:24 - [MESSAGE][PASSED] - Text '-85.834438' is set on object 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Geo location_geoLng'
+
+2019-03-08 13:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Detail/Page_LEED Online/input_Geo location_fActionsSub' is clicked on
+
+2019-03-08 13:21:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-08 13:21:30 - [MESSAGE][PASSED] - Keys 'END + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-08 13:21:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 13:21:32 - [MESSAGE][PASSED] - Keys 'HOME + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-08 13:21:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 13:21:34 - [MESSAGE][PASSED] - Keys 'END + ' sent to object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/iframe'
+
+2019-03-08 13:21:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 13:21:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/button_I AGREE' successfully
+
+2019-03-08 13:21:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-03-08 13:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/agrrement verifi/Page_LEED Online/button_I AGREE' is clicked on
+
+2019-03-08 13:21:49 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Payment type_payment_typ' is visible
+
+2019-03-08 13:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Payment type_payment_typ' is clicked on
+
+2019-03-08 13:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Payment type_payment_typ' is clicked on
+
+2019-03-08 13:21:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Card type_card_type' is clicked on
+
+2019-03-08 13:21:50 - [MESSAGE][PASSED] - Text 'gokul' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Name on card_card-name'
+
+2019-03-08 13:21:51 - [MESSAGE][PASSED] - Text '4111111111111111' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Card number_card-number'
+
+2019-03-08 13:21:51 - [MESSAGE][PASSED] - Text '999' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_CVV_card-cvv'
+
+2019-03-08 13:21:51 - [MESSAGE][PASSED] - All options with value '07' are selected in object 'Object Repository/Project_Registration/payment page/Page_LEED Online/select_01020304050607080910111'  using regular expression
+
+2019-03-08 13:21:52 - [MESSAGE][PASSED] - All options with value '2021' are selected in object 'Object Repository/Project_Registration/payment page/Page_LEED Online/select_20192020202120222023202'  using regular expression
+
+2019-03-08 13:21:52 - [MESSAGE][PASSED] - Text 'john james p' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Bill-to-party name_billN'
+
+2019-03-08 13:21:53 - [MESSAGE][PASSED] - Text 'gokulthiru22@gmail.com' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Bill-to-party email_bill'
+
+2019-03-08 13:21:53 - [MESSAGE][PASSED] - Text '9338 Carpenter St.' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Address 2_address2_20'
+
+2019-03-08 13:21:53 - [MESSAGE][PASSED] - Text '9338 Carpenter St.' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Address 2_address2_21'
+
+2019-03-08 13:21:54 - [MESSAGE][PASSED] - Text 'Waukesha' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_City_city'
+
+2019-03-08 13:22:00 - [MESSAGE][PASSED] - All options with value 'US' are selected in object 'Object Repository/Project_Registration/payment page/Page_LEED Online/select_AfghanistanAland Island'  using regular expression
+
+2019-03-08 13:22:02 - [MESSAGE][PASSED] - All options with value 'IN ' are selected in object 'Object Repository/Project_Registration/payment page/Page_LEED Online/select_AlabamaAlaskaAmerican S'  using regular expression
+
+2019-03-08 13:22:02 - [MESSAGE][PASSED] - Text '46526' is set on object 'Object Repository/Project_Registration/payment page/Page_LEED Online/input_Postal code_postalcode'
+
+2019-03-08 13:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment page/Page_LEED Online/a_Submit Payment' is clicked on
+
+2019-03-08 13:22:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-08 13:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment2/Page_/span_close' is clicked on
+
+2019-03-08 13:22:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-08 13:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/payment page/Page_LEED Online/a_Submit Payment' is clicked on
+
+2019-03-08 13:22:10 - [MESSAGE][PASSED] - Object 'Object Repository/Project_Registration/Receipt/Page_LEED Online/td_v4.1 Interiors BP02' is visible
+
+2019-03-08 13:22:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-08 13:22:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Project_Registration/Receipt/Page_LEED Online/a_Done' successfully
+
+2019-03-08 13:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Project_Registration/Receipt/Page_LEED Online/a_Done' is clicked on
+
+2019-03-08 13:22:48 - [MESSAGE][PASSED] - Run with 'testRunner.ProjectRegistrationRunner' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-08 13:20:20 - [TEST_SUITE][PASSED] - TS_SmokeTest_E2E_LeedOnline: Test Cases/SmokeTest/TC_Project_Registration]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
