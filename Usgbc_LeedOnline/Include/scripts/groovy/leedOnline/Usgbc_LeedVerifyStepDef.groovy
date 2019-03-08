@@ -65,7 +65,7 @@ class projectdetails {
 	@Given("User has to navigate to LEED Online login page")
 	public void user_has_to_navigate_to_LEED_Online_login_page(){
 		WebUI.openBrowser("")
-		WebUI.maximizeWindow()
+		//WebUI.maximizeWindow()
 		//WebUI.setViewPortSize(1044,788)
 		WebUI.navigateToUrl("https://leedonline-stg.usgbc.org")
 
@@ -87,13 +87,13 @@ class projectdetails {
 		WebUI.scrollToElement(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),30)
 		//		WebUI.delay(3)
 
-	boolean a = WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 60)
-	
-	print a
-	
+		boolean a = WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 60)
+
+		print a
+
 		if (a == true){
-		
-		WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))}
+
+			WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))}
 		else{
 			print "else"
 		}

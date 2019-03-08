@@ -62,23 +62,23 @@ import cucumber.api.junit.Cucumber
 
 
 
- @RunWith(Cucumber.class)
- @CucumberOptions(features = "C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/Include/features/Usgbc_LeedPrjtReg.feature", glue="",
- plugin = ["pretty",
- "junit:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectRegistration.xml",
- "html:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectRegistration.html",
- "json:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectRegistration.json"],
- tags=['@SmokeTest'] )
- 
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/Include/features/Usgbc_LeedPrjtReg.feature", glue="",
+plugin = ["pretty",
+	"junit:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectRegistration.xml",
+	"html:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectRegistration.html",
+	"json:C:/Program Files (x86)/Jenkins/workspace/Leed_Online/Usgbc_LeedOnline/MyReports/ProjectRegistration.json"],
+tags=['@SmokeTest'] )
+
 
 /*
-@RunWith(Cucumber.class)
-@CucumberOptions(features = "Include/features/Usgbc_LeedPrjtReg.feature", glue="",
-plugin = ["pretty",
-	"junit:MyReports/ProjectRegistration.xml",
-	"html:MyReports/ProjectRegistration.html",
-	"json:MyReports/ProjectRegistration.json"],
-tags=['@SmokeTest'] )
+ @RunWith(Cucumber.class)
+ @CucumberOptions(features = "Include/features/Usgbc_LeedPrjtReg.feature", glue="",
+ plugin = ["pretty",
+ "junit:MyReports/ProjectRegistration.xml",
+ "html:MyReports/ProjectRegistration.html",
+ "json:MyReports/ProjectRegistration.json"],
+ tags=['@SmokeTest'] )
  */
 
 class ProjectRegistrationRunner {

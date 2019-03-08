@@ -51,14 +51,14 @@ import cucumber.api.junit.Cucumber
 
 
 /*
-@RunWith(Cucumber.class)
-@CucumberOptions(features = "F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedVerify.feature",
-glue="",
-plugin = ["pretty",
-	"junit:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.xml",
-	"html:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.html",
-	"json:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.json"],
-tags=['@SmokeTest'])*/
+ @RunWith(Cucumber.class)
+ @CucumberOptions(features = "F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/Include/features/Usgbc_LeedVerify.feature",
+ glue="",
+ plugin = ["pretty",
+ "junit:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.xml",
+ "html:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.html",
+ "json:F:/GitProjects/Usgbc_LeedOnline/Usgbc_LeedOnline/MyReports/ProjectVerification.json"],
+ tags=['@SmokeTest'])*/
 
 /*
  @RunWith(Cucumber.class)
