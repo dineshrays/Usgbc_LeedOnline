@@ -200,7 +200,7 @@ class Usgbc_LeedCampusRegStepDef {
 	}
 	@When("User has to click Add button")
 	public void User_has_to_click_Add_button(){
-		WebUI.click(findTestObject('Object Repository/Campus_Registration/LEED_camRegtc/leedneworganization/Page_LEED Online/input_Industry Sub-Category_su11'))
+		WebUI.click(findTestObject('Object Repository/Campus_Registration/LEED_camRegtc/leedneworganization/Page_LEED Online/input_Industry Sub-Category_su'))
 
 	}
 	@Then("A new Organization has to be added successfully")
