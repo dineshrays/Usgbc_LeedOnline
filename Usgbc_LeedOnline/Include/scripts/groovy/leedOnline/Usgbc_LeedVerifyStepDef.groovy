@@ -61,7 +61,7 @@ class projectdetails {
 
 	//System.setProperty("webdriver.chrome.driver", "C:\\Users\\promantus inc\\source\\repos\\seleniumExTitbits\\packages\\Selenium.Chrome.WebDriver.2.43\\driver\\chromedriver.exe")
 	//WebDriver driver = new ChromeDriver()
-	
+
 	@Given("User has to navigate to LEED Online login page")
 	public void user_has_to_navigate_to_LEED_Online_login_page(){
 		WebUI.openBrowser("")
@@ -69,11 +69,10 @@ class projectdetails {
 		//WebUI.setViewPortSize(1044,788)
 		WebUI.navigateToUrl("https://leedonline-stg.usgbc.org")
 
-		
+
 		//WebUI.executeJavaScript("document.body.style.zoom='75%'", null)
-//C:\Users\promantus inc\source\repos\seleniumExTitbits\packages\Selenium.Chrome.WebDriver.2.43\driver
 	}
-	
+
 	@When("User has to enter username (.*) and password (.*)")
 	public void User_has_to_enter_username_and_password(String username,String password){
 		WebUI.delay(2)
@@ -88,14 +87,15 @@ class projectdetails {
 		WebUI.scrollToElement(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),30)
 		//		WebUI.delay(3)
 
-		//WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 10)
+		WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 10)
 		WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))
 
+		//WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),10)
 		/*
 		 WebDriverWait wait1 = new WebDriverWait(driver, 10);
 		 WebElement element1 = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("xpath_of_element_to_be_clicked")));
 		 element1.click();
-	*/	 
+		 */	 
 		/*
 		 WebElement ele = driver.findElement(By.xpath("element_xpath"));
 		 JavascriptExecutor executor = (JavascriptExecutor)driver;
