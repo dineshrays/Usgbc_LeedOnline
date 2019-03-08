@@ -70,7 +70,8 @@ class projectdetails {
 	@When("User has to check accept checkbox")
 	public void User_has_to_check_accept_checkbox(){
 		WebUI.delay(3)
-		//WebUI.scrollToElement(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),30)
+		//WebUI.Waitfor
+		WebUI.scrollToElement(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),30)
 		WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))
 	}
 	@When("User clicks on login button and navigate to home page")
