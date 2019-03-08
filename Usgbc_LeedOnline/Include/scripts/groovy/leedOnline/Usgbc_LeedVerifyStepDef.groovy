@@ -87,8 +87,16 @@ class projectdetails {
 		WebUI.scrollToElement(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),30)
 		//		WebUI.delay(3)
 
-		WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 60)
-		WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))
+	boolean a = WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'), 60)
+	
+	print a
+	
+		if (a == true){
+		
+		WebUI.check(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'))}
+		else{
+			print "else"
+		}
 
 		//WebUI.waitForElementVisible(findTestObject('Object Repository/Project_Registration/Page_LEED Online/span_End User License Agreemen'),10)
 		/*

@@ -15,7 +15,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\PROMAN~1\\AppData\\Local\\Temp\\Katalon\\Include\\features\\Usgbc_LeedCampusReg.feature\\20190308_094416\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\PROMAN~1\\AppData\\Local\\Temp\\Katalon\\Include\\features\\Usgbc_LeedVerify.feature\\20190308_114006\\execution.properties')
 
 TestCaseMain.beforeStart()
-TestCaseMain.runFeatureFile('Include/features/Usgbc_LeedCampusReg.feature')
+TestCaseMain.runFeatureFile('Include/features/Usgbc_LeedVerify.feature')
