@@ -69,6 +69,7 @@ class Usgbc_LeedPrjtRegStepDef {
 
 	@Given("User should be in Leeds online homepage")
 	def User_should_be_in_Leeds_online_homepage(){
+		WebUI.maximizeWindow()
 	}
 
 	@Given("User has to fill all the entries in project details page such as Name (.*)")
@@ -104,7 +105,7 @@ class Usgbc_LeedPrjtRegStepDef {
 	@Given("User should click and select Anticipated type")
 	def User_should_click_and_select_Anticipated_type(){
 		WebUI.delay(3)
-		WebUI.click(findTestObject('Object Repository/Project_Registration/calender/Page_LEED Online/select_Select project typeAirp'))
+		//WebUI.click(findTestObject('Object Repository/Project_Registration/calender/Page_LEED Online/select_Select project typeAirp'))
 		WebUI.selectOptionByValue(findTestObject('Object Repository/Project_Registration/calender/Page_LEED Online/select_Select project typeAirp'),'Airport: Distribution Center', true)
 	}
 	@Given("User should enter Gross floor area (.*),Owner (.*),Owners Representative (.*)")
