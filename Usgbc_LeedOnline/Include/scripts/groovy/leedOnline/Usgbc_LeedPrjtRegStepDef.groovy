@@ -103,6 +103,7 @@ class Usgbc_LeedPrjtRegStepDef {
 
 	@Given("User should click and select Anticipated type")
 	def User_should_click_and_select_Anticipated_type(){
+		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/Project_Registration/calender/Page_LEED Online/select_Select project typeAirp'))
 		WebUI.selectOptionByValue(findTestObject('Object Repository/Project_Registration/calender/Page_LEED Online/select_Select project typeAirp'),'Airport: Distribution Center', true)
 	}
