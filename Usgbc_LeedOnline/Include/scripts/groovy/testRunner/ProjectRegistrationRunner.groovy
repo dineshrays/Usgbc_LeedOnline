@@ -79,7 +79,7 @@ plugin = ["pretty",
 	"html:MyReports/ProjectRegistration.html",
 	"json:MyReports/ProjectRegistration.json"],
 tags=['@SmokeTest'] )
-*/
+ */
 
 class ProjectRegistrationRunner {
 }
