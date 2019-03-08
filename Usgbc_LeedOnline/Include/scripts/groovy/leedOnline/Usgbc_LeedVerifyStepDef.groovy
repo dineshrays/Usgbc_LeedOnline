@@ -55,7 +55,7 @@ class projectdetails {
 	@Given("User has to navigate to LEED Online login page")
 	public void user_has_to_navigate_to_LEED_Online_login_page(){
 		WebUI.openBrowser("")
-		WebUI.maximizeWindow()
+		//WebUI.maximizeWindow()
 		WebUI.navigateToUrl("https://leedonline-stg.usgbc.org")
 	}
 	@When("User has to enter username (.*) and password (.*)")
