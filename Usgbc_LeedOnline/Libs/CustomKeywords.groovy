@@ -15,3 +15,9 @@ def static "customKeywords.CustomKeywordPdfupload.uploadFile"(
         	to
          , 	filePath)
 }
+
+def static "customKeywords.batchFile.runBatchFile"(
+    	String batchFile	) {
+    (new customKeywords.batchFile()).runBatchFile(
+        	batchFile)
+}
